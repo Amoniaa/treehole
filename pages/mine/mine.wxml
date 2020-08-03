@@ -1,0 +1,29 @@
+<!--pages/mine/mine.wxml-->
+<view class="logs" bindtap="jumplogs">更新日志</view>
+<view class='personalInf'>
+	<view class='deco'>
+		<open-data class='ava' type="userAvatarUrl"></open-data>
+	</view>
+	<open-data class='nn' type="userNickName"></open-data>
+</view>
+
+<view class='scbg' scroll-y='true'>
+	<block wx:for="{{showdata}}" wx:for-item="itemName" wx:for-index="id" wx:key="key">
+		<view class='box'>
+			<view class='secondblock'>
+				<text class='content'>{{itemName.content}}</text>
+				<view class="tel">
+					<text class="showtime">{{itemName.send_timestamp}}</text>
+				</view>
+			</view>
+			<view class='thirdblock'>
+				<view class='combination'>
+					<image class="like" src="/images/like.png"></image>
+					<text class='num'>{{itemName.total_likes}}</text>
+				</view>
+				<view class='del' bindtap="delete" id='{{itemName.id}}' data-id='{{itemName.id}}'>删除</view>
+			</view>
+		</view>
+  </block>
+</view>
+<include src="/pages/bottom_menu/bottom_menu" />

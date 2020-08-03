@@ -1,0 +1,180 @@
+/* pages/mine/mine.wxss */
+@import "/pages/bottom_menu/bottom_menu";
+
+page {
+  background-color: #ddd;
+}
+
+.logs {
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  font-size: 32rpx;
+  color: #F76968;
+}
+
+.personalInf {
+  width: 100%;
+  height: 400rpx;
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  margin-right: 0rpx;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.deco {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 50rpx;
+  border-radius: 15rpx;
+  background-color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.ava {
+  margin-top: 10rpx;
+  width: 180rpx;
+  height: 180rpx;
+}
+
+.nn {
+  font-size: 32rpx;
+  color: #888;
+  padding-bottom: 40rpx;
+}
+
+.scbg {
+  background-color: #ddd;
+  width: 94%;
+  padding: 2% 3% 110rpx 3%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 100%;
+  background-color: white;
+  margin: 2% 0 2% 0;
+  border-radius: 20rpx;
+}
+
+.firstblock {
+  height: 150rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.touxiang {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.person {
+  width: 75%;
+  height: 130rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10rpx;
+  font-size: 40rpx;
+  flex-direction: row;
+}
+
+.tel {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 20rpx;
+  flex-direction: row;
+    align-self: flex-end;
+    margin-top: -2rpx;
+    margin-bottom: -5rpx;
+}
+
+.showname {
+  font-size: 34rpx;
+  color: #3f51b5;
+  font-family: PingFangSC-regular;
+  font-weight: bold;
+}
+
+.showtime {
+  font-size: 28rpx;
+  color: #aaa;
+  font-family: PingFangSC-regular;
+}
+
+.secondblock {
+  margin-top: 20rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-bottom: 20rpx;
+  border-bottom: 2rpx solid #bbb;
+  display: flex;
+  flex-direction: column;
+}
+
+.content{
+  margin: 10rpx;
+  font-size: 30rpx;
+  color: #101010;
+  word-break: break-all;
+  line-height: 45rpx;
+}
+
+.thirdblock {
+  height: 100rpx;
+  margin-left: 4%;
+  margin-right: 4%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.combination {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.like {
+  margin-left: 20rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.num {
+  height: 50rpx;
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  color: #101010;
+}
+
+.del {
+  color: white;
+  background-color: #f76968;
+  border-radius: 15rpx;
+  margin-top: 20rpx;
+  margin-right: 20rpx;
+  width: 150rpx;
+  height: 60rpx;
+  font-size: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+}

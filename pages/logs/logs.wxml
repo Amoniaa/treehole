@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class='logs-container'>
+  <div class='item' wx:for="{{logs}}" wx:key="name">
+    <text>版本：{{item.version}}</text>
+    <text>时间：{{item.time}}</text>
+    <text>更新内容：{{item.content}}</text>
+  </div>
+</view>

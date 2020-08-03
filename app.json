@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/load/load",
+    "pages/enroll/enroll",
+    "pages/square/square",
+    "pages/login/login",
+    "pages/mine/mine",
+
+    "pages/bottom_menu/bottom_menu",
+    "pages/commit/commit",
+
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F76968",
+    "navigationBarTitleText": "TreeHole",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json"
+}

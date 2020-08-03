@@ -1,0 +1,40 @@
+/* pages/bottom_menu/bottom_menu.wxss */
+/* pages/bottom_menu/bottom_menu.wxss */
+
+.bottomrow{
+  background-color: #efefef;
+  width: 100%;
+  height: 100rpx;
+  bottom: 0rpx;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottomtab{
+  width: 320rpx;
+  height: 35rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10rpx;
+}
+
+.bottomImg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 40rpx;
+}
+
+.bottomtabText{
+  font-size: 35rpx;
+  color: #979797;
+  line-height: 35rpx;
+}
